@@ -5,7 +5,7 @@ import ui
 class MyScene(Scene):
 	def setup(self):
 		# load dirt texture
-		dirt_img_fp = Path(__file__).parent.joinpath('dirt.png')
+		dirt_img_fp = Path(__file__).parent.joinpath('assets/dirt.png')
 		dirt_img = ui.Image(str(dirt_img_fp))
 		dirt_texture = Texture(dirt_img)
 		
